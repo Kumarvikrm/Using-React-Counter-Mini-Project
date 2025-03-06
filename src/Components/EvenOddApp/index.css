@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(195, 205, 248);
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #d6e2f7, #8e97c6);
+  box-shadow: 6px 6px 10px rgba(120, 119, 119, 0.2),
+    -6px -6px 10px rgba(208, 204, 204, 0.2);
+  font-family: "Roboto";
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+            8px 8px 16px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.count {
+  color: #0f172a;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.number-category {
+  color: #334155;
+  font-size: 20px;
+}
+
+.increment-button {
+  color: #020c1e;
+  font-size: 13px;
+  background-color: #eaf5f2;
+  border-radius: 6px;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.note {
+  color: #fbfbfc;
+  font-size: 15px;
+}
